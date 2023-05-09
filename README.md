@@ -1,1 +1,2 @@
-# qrenco
+# Qrenco
+Este é um script em lote (batch) que solicita ao usuário que digite um texto ou uma URL para gerar um código QR usando o serviço qrenco.de. Ele usa o comando "set /p" para permitir que o usuário digite o texto, e em seguida usa o comando "curl" para chamar a API do qrenco.de e gerar o código QR correspondente. Em seguida, o código QR é exibido no console e o script entra em pausa para aguardar que o usuário pressione qualquer tecla para continuar ou digite "Ctrl + C" para encerrar o script. O loop "goto" mantém o script em execução para que o usuário possa gerar quantos códigos QR desejar sem ter que executar o script novamente.
